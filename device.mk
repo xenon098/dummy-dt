@@ -344,7 +344,9 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     init.qti.ims.sh \
     init.qti.qseecomd.sh \
-    qca6234-service.sh
+    qca6234-service.sh \
+    move_wifi_data.sh \
+    move_time_data.sh
 
 PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
