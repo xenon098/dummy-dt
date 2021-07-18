@@ -7,7 +7,7 @@
 #
 
 #rild.libpath=/system/lib/libreference-ril.so
-rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -60,7 +60,6 @@ media.msm8956hw=0
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
@@ -249,5 +248,3 @@ persist.bg.dexopt.enable=true
 #
 #audio parameter version
 audio_para_version=C3E-Audiopara-V30-20190929
-
-#
