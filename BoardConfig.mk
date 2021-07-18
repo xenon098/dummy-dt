@@ -179,6 +179,9 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Seecomp
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/configs/seccomp
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-05-01
 
