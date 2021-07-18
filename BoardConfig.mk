@@ -182,6 +182,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-05-01
 
+# Sensors
+USE_SENSOR_MULTI_HAL := true
+
 # Treble
 BOARD_VNDK_VERSION := current
 BOARD_VNDK_RUNTIME_DISABLE := true
